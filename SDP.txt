@@ -1,0 +1,13 @@
+1. Requirments: 
+	- build a program to write a poem by calulating the probility.
+	- keep generic structure of the hashtable.
+
+2. Design: 
+	- refactor hasthtable to take a key and a value.
+	- iterate over a file and keep track of occure count and the follow history.
+	- usign the occure count and follow history calculate the probibility of next word and print it out.
+3. input: 
+	- file name, start word, peom length, if it was inserted.
+   output:
+	- hashtable with all words and there occure count with there follower list and occure count.
+4 test:
