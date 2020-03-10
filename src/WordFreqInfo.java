@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.*;
 
 public class WordFreqInfo {
     public String word;
@@ -14,8 +15,8 @@ public class WordFreqInfo {
 
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Word :" + word+":");
-        sb.append(" (" + occurCt + ") : ");
+        sb.append( " | Word :  " + word+":");
+        sb.append(" (" + occurCt + ") : -- Follow list:  ");
         for (Freq f : followList)
             sb.append(f.toString());
 
